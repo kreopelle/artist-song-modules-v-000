@@ -1,7 +1,7 @@
 module Findable
 
   def find_by_name(name)
-    self.all.detect {|name| @name == name}
-  end 
+    self.all.detect {|n| n.name == name}
+  end
 
 end
